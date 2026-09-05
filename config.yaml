@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (c626a6368fe0ff90)
+project:
+  name: arbitrum-swap-tool-sdk-anmt
+  tag: c626a6368fe0ff90
+  env: production
+cfg_flux00tmc1:
+  enabled: true
+  workers: 4
+cfg_matrix810nqr:
+  timeout_sec: 25
+  retry: 3
+cfg_deltahqmho7:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
